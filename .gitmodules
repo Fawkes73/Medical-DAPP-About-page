@@ -1,0 +1,3 @@
+[submodule "scss"]
+  path = scss
+  url = Card-Slider/scss/styles.scss
