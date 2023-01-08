@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Slider |Dev Mode</title>
+
+   <!-- Link Swiper's CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+  <!-- CSS -->
+  <link rel="stylesheet" href="scss/styles.css">
+</head>
+<body>
+        <div class="wcard">
+          <section class="swiper mySwiper">
+
+            <div class="swiper-wrapper">
+
+              <div class="card swiper-slide">
+                <div class="card__image">
+                  <img src="#" alt="card image">
+                </div>
+        
+                <div class="card__content">
+                  <span class="card__title">Patil Bhaghyashri</span>
+                  <span class="card__name">Content Writing </span>
+
+                </div>
+                <div class="card__text">
+                  <p >
+                    I'm a skilled writer and presenter, excels at creating professional reports 
+                    and engaging PowerPoint presentations. 
+                      Whether you need a comprehensive report or a dynamic
+                      presentation, the go-to person for all your written and 
+                      visual communication needs.
+                     </p>
+                </div>
+                <div class="btnposi">
+                  <button class="cardbtn1">View More</button>
+                </div>
+              </div>
+
+              <div class="card swiper-slide">
+                <div class="card__image">
+                  <img src="#" alt="card image">
+                </div>
+        
+                <div class="card__content">
+                  <span class="card__title">Surve Mandar</span>
+                  <span class="card__name">BlockChain Developer</span>
+
+
+                  <div class="card__text">
+                    <p >I'm a blockchain developer with experience in 
+                      creating decentralized applications (DApps) on the
+                       Ethereum platform.  I have a strong understanding of 
+                       Solidity and the Ethereum Virtual Machine (EVM).            
+                     My key blockchain development skills include  Truffle, and Web3.js.</p>
+                  </div>
+   
+                  
+                  </div>
+                  <div class="btnposi">
+                    <button class="cardbtn">View More</button>
+                  </div>
+              </div>
+
+              <div class="card swiper-slide">
+                <div class="card__image">
+                  <img src="#" alt="card image">
+                </div>
+        
+                <div class="card__content">
+                  <span class="card__title">Thakur Namrata</span>
+                  <span class="card__name">UI Designer</span>
+
+
+                  <div class="card__text">  
+                  <p >I'm a UI designer with a passion for creating
+                     intuitive and visually appealing user interfaces. 
+                     I have experience in both web and mobile design, and
+                      I'm skilled in using tools like Canva, Figma</p>
+                  </div>
+                 
+                </div>
+                <div class="btnposi">
+                  <button class="cardbtn">View More</button>
+                </div>
+              </div>
+        
+              <div class="card swiper-slide">
+                <div class="card__image">
+                  <img src="#" alt="card image">
+                </div>
+        
+                <div class="card__content">
+               
+                    <span class="card__title">Thakur Pratik</span>
+                    <span class="card__name">Web Designer</span>
+
+                  
+             
+
+                  
+                  <div class="card__text">
+
+                    <p >I'm a web developer in 
+                      creating responsive and user-friendly 
+                      websites & specialize in building dynamic.
+                      I am responsible
+                        for creating the design and layout of a 
+                        website/web pages.</p>
+                
+                  </div>
+                    </div>
+
+                  <div class="btnposi">
+                    <button class="cardbtn">View More</button>
+                  </div>
+              </div>
+        
+             
+        
+       
+        
+            
+            </div>
+          </section>
+        </div>
+   <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+   <!-- Initialize Swiper -->
+   <script>
+     var swiper = new Swiper(".mySwiper", {
+       effect: "coverflow",
+       grabCursor: true,
+       centeredSlides: true,
+       slidesPerView: "auto",
+       coverflowEffect: {
+         rotate: 0,
+         stretch: 0,
+         depth: 300,
+         modifier: 1,
+         slideShadows: false,
+       },
+       pagination: {
+         el: ".swiper-pagination",
+       },
+     });
+   </script>
+  
+</body>
+</html>
